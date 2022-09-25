@@ -20,7 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: end;
-    background: linear-gradient(to right, rgb(0 0 0 / .65),rgb(0 0 0 / .65)),url(../imagenes/ba1.jpg);
+    background: linear-gradient(to right, rgb(0 0 0 / .65),rgb(0 0 0 / .65)),url(../Imagenes/ba1.jpg);
     background-size: cover;
     background-position: center;
 }
