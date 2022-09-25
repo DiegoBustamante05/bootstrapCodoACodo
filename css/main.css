@@ -1,0 +1,60 @@
+.decoration {
+    text-decoration:underline;
+    text-decoration-style: dotted;
+    text-underline-position: under;
+}
+
+.blanco a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.navLogo{
+    margin: 0 3rem;
+}
+
+.contenedor{
+    
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background: linear-gradient(to right, rgb(0 0 0 / .65),rgb(0 0 0 / .65)),url(/Imagenes/ba1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.texto{
+    color: #fff;
+    text-align: end;
+    width: 40%;
+    padding-right: 5em;
+}
+
+@media (max-width: 350px) {
+    .navLogo{
+        margin: 0;
+    }
+}
+
+@media (max-width: 960px) {
+    .texto{
+        font-size: 15px;
+        text-align: center;
+        padding: 0;
+    }
+    .contenedor{
+        justify-content: center;
+        align-items: end;
+    }
+    .botones{
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .texto{
+        display: none;
+    }
+}
